@@ -1,0 +1,48 @@
+{
+  "name": "jisai-motion",
+  "version": "0.4.0",
+  "owner": "极思狂想",
+  "updated_at": "2026-09-15",
+  "status": "public-preview",
+  "maturity_tier": "production",
+  "lifecycle_stage": "public-preview",
+  "context_budget_tier": "production",
+  "upstream_inspiration": "0x0funky/agent-sprite-forge",
+  "release_gates": [
+    "package",
+    "trigger-smoke",
+    "processor-tests",
+    "local-install"
+  ],
+  "intent": {
+    "job_to_be_done": "Turn text and references into editable short image-generated motion assets.",
+    "target_users": [
+      "creative users",
+      "game asset makers"
+    ],
+    "inputs": [
+      "text",
+      "reference images",
+      "sprite sheet",
+      "PNG frames",
+      "optional audio"
+    ],
+    "outputs": [
+      "GIF",
+      "RGBA frames",
+      "APNG",
+      "WebP",
+      "atlas",
+      "ZIP",
+      "MP4",
+      "timeline",
+      "QA report"
+    ],
+    "exclusions": [
+      "long video editing",
+      "rigged 3D",
+      "CSS animation",
+      "existing video conversion"
+    ]
+  }
+}

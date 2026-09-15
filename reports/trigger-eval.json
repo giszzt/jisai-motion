@@ -1,0 +1,298 @@
+{
+  "ok": true,
+  "threshold": 0.66,
+  "description_concepts": [
+    "action",
+    "input",
+    "motion"
+  ],
+  "missing_description_concepts": [],
+  "summary": {
+    "total": 22,
+    "passed": 22,
+    "false_positive": 0,
+    "false_negative": 0,
+    "pass_rate": 1.0
+  },
+  "failures": [],
+  "results": {
+    "should_trigger": [
+      {
+        "prompt": "让这张图动起来",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "action",
+          "input",
+          "motion"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "根据文字创作动图",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "action",
+          "input",
+          "motion"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "用角色照片做动态表情",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "action",
+          "input",
+          "motion"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "生成写实咖啡微动",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 0.667,
+        "matched_concepts": [
+          "action",
+          "motion"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "将参考动作图切帧",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "action",
+          "input",
+          "motion"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "修改第5帧的动作",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 0.667,
+        "matched_concepts": [
+          "action",
+          "motion"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "只让眼睛眨动",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 0.667,
+        "matched_concepts": [
+          "action",
+          "motion"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "角色做跳跃动作",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "action",
+          "input",
+          "motion"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "create animated gif from text",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "action",
+          "input",
+          "motion"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "repair sprite sheet frames",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 1.0,
+        "matched_concepts": [
+          "action",
+          "input",
+          "motion"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "export frame sequence",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 0.667,
+        "matched_concepts": [
+          "action",
+          "motion"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "生成黏土风动作视频",
+        "family": "default",
+        "expected_trigger": true,
+        "predicted_trigger": true,
+        "passed": true,
+        "score": 0.667,
+        "matched_concepts": [
+          "action",
+          "motion"
+        ],
+        "negative_pattern": null
+      }
+    ],
+    "should_not_trigger": [
+      {
+        "prompt": "画一张静态海报",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.0,
+        "matched_concepts": [],
+        "negative_pattern": "静态海报"
+      },
+      {
+        "prompt": "现有视频转 GIF",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.0,
+        "matched_concepts": [],
+        "negative_pattern": "现有视频转"
+      },
+      {
+        "prompt": "给角色做三维骨骼",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.667,
+        "matched_concepts": [
+          "action",
+          "input"
+        ],
+        "negative_pattern": "骨骼"
+      },
+      {
+        "prompt": "写 CSS 动画",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.0,
+        "matched_concepts": [],
+        "negative_pattern": "CSS"
+      },
+      {
+        "prompt": "长篇剪辑",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.0,
+        "matched_concepts": [],
+        "negative_pattern": "长篇剪辑"
+      },
+      {
+        "prompt": "只解释 GIF 是什么",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.0,
+        "matched_concepts": [],
+        "negative_pattern": "只解释"
+      }
+    ],
+    "near_neighbor": [
+      {
+        "prompt": "查找现成动作表情",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.333,
+        "matched_concepts": [
+          "motion"
+        ],
+        "negative_pattern": "查找现成"
+      },
+      {
+        "prompt": "给视频加字幕",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.0,
+        "matched_concepts": [],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "做网页交互动效",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.333,
+        "matched_concepts": [
+          "action"
+        ],
+        "negative_pattern": null
+      },
+      {
+        "prompt": "创作一本静态绘本",
+        "family": "default",
+        "expected_trigger": false,
+        "predicted_trigger": false,
+        "passed": true,
+        "score": 0.333,
+        "matched_concepts": [
+          "action"
+        ],
+        "negative_pattern": null
+      }
+    ]
+  }
+}

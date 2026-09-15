@@ -1,0 +1,106 @@
+[
+  {
+    "file": "coffee-break.gif",
+    "width": 342,
+    "height": 408,
+    "frames": 16,
+    "duration_ms": 3210,
+    "sha256": "d42b4ae6074c675da47d2c7decb6de550a9c8d5a3236a8392c1364ea360ed8df"
+  },
+  {
+    "file": "deadline.gif",
+    "width": 393,
+    "height": 399,
+    "frames": 16,
+    "duration_ms": 1960,
+    "sha256": "470b9f61356df3fac8a43440a2f12ec42d6e6b41af52b60b3a8b325ebb7c5947"
+  },
+  {
+    "file": "rainy-day.gif",
+    "width": 372,
+    "height": 435,
+    "frames": 16,
+    "duration_ms": 2800,
+    "sha256": "e100deab0b8a2d4d801fa3b710eaa3b1d3c26c02ee70dee3e62dd540115b9c36"
+  },
+  {
+    "file": "electric-circuit.gif",
+    "width": 770,
+    "height": 700,
+    "frames": 12,
+    "duration_ms": 2800,
+    "sha256": "c5f37bf6227a29ecbefcad88341488dc9607390bbdda9ab8daeccf23921de9e1"
+  },
+  {
+    "file": "rain-garden.gif",
+    "width": 860,
+    "height": 680,
+    "frames": 12,
+    "duration_ms": 3220,
+    "sha256": "260efa13770649aed8429e945032eed8ed393b93ca202386ffd7b7aac6d4192c"
+  },
+  {
+    "file": "water-cycle.gif",
+    "width": 905,
+    "height": 660,
+    "frames": 12,
+    "duration_ms": 2780,
+    "sha256": "e121640a3690a48840e43bd9ea9b69596bdcb041119a26da96103216e7078a32"
+  },
+  {
+    "file": "moonlit-flower.gif",
+    "width": 313,
+    "height": 313,
+    "frames": 16,
+    "duration_ms": 1740,
+    "sha256": "ff5f7b32e6df0534307daf21288e4f6c7090c193af90056d5b842e441df0a030"
+  },
+  {
+    "file": "firefly-bottle.gif",
+    "width": 313,
+    "height": 313,
+    "frames": 16,
+    "duration_ms": 1740,
+    "sha256": "6c02de15546acdf1f3826a1e5a6e654bb4f698b4c79482ee1574fcd86bb7aaff"
+  },
+  {
+    "file": "paper-boat.gif",
+    "width": 313,
+    "height": 313,
+    "frames": 16,
+    "duration_ms": 1740,
+    "sha256": "81c9a3625e95965501f1905831cab7719dca89ba99d9992d06b58d71fab7b8d0"
+  },
+  {
+    "file": "high-kick.gif",
+    "width": 384,
+    "height": 512,
+    "frames": 8,
+    "duration_ms": 1120,
+    "sha256": "a9196ce18f305d42d297bcfde44c0a1e780d0e2daad486741fbce444d9abc0ec"
+  },
+  {
+    "file": "kimetsu-tanjiro.gif",
+    "width": 826,
+    "height": 826,
+    "frames": 16,
+    "duration_ms": 1800,
+    "sha256": "3665633d6656172d28db38dba96eca762d110285c14b58c9cc148cff56241457"
+  },
+  {
+    "file": "kimetsu-zenitsu.gif",
+    "width": 749,
+    "height": 749,
+    "frames": 16,
+    "duration_ms": 2130,
+    "sha256": "f9f399335862802db8d46b43c81d86377040d13bcb9d719c53c55642fcb2b4fd"
+  },
+  {
+    "file": "kimetsu-rengoku.gif",
+    "width": 752,
+    "height": 752,
+    "frames": 16,
+    "duration_ms": 1990,
+    "sha256": "c1e156139015006680d9dfaa5a55f7d6046098b440ee40a3ae09213bd70fc216"
+  }
+]

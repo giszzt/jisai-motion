@@ -1,0 +1,10 @@
+{
+  "file": "kimetsu-gallery-1080p60-voice.mp4",
+  "sha256": "5881b7a8a85f64d0929f1eb7af24decd8db5d6de3874d422c6f2e46a27fe0e7e",
+  "duration_seconds": 59.8,
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "audio": "AAC stereo",
+  "source": "Author-provided existing project; generated character motion, separately composed scenes and synthesized speech."
+}

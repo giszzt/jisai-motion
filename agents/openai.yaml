@@ -1,0 +1,4 @@
+interface:
+  display_name: "动起来"
+  short_description: "从文字或参考图创作可修改的 GIF、动作帧和短视频"
+  default_prompt: "使用 $jisai-motion 根据我的要求创作短动作并交付经过检查的实际文件。"

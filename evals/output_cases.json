@@ -1,0 +1,13 @@
+{
+  "status": "planned-provider-evaluation-not-run",
+  "comparison": "sheet vs anchored keyframes with matched input, size and call budget",
+  "cases": [
+    {"id": "cartoon-reaction", "check": "identity, readable emotion, loop velocity"},
+    {"id": "pixel-action", "check": "crisp edges, timing, transparent replay"},
+    {"id": "clay-object", "check": "material consistency, scale, no camera drift"},
+    {"id": "photo-micro-motion", "check": "static region stability, no light flicker"},
+    {"id": "nonhuman-fx", "check": "preserved soft alpha, no humanoid alignment"},
+    {"id": "jump", "check": "vertical trajectory retained, no per-frame normalization"}
+  ],
+  "record": ["calls", "elapsed_seconds", "cost_if_known", "repair_count", "structural_result", "human_playback_review"]
+}
