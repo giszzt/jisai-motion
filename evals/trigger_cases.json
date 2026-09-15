@@ -1,0 +1,17 @@
+{
+  "positive_concepts": {
+    "motion": ["动图", "动作", "动态表情", "微动", "眨动", "动起来", "animated gif", "sprite sheet", "frame sequence"],
+    "input": ["参考", "图片", "文字", "角色", "图", "text", "reference", "frames"],
+    "action": ["创作", "生成", "做", "切帧", "修帧", "修改", "让", "create", "repair", "export"]
+  },
+  "description_required_concepts": ["motion", "input", "action"],
+  "recommended_threshold": 0.66,
+  "negative_patterns": ["现有视频转", "静态海报", "CSS", "骨骼", "长篇剪辑", "只解释", "查找现成"],
+  "should_trigger": [
+    "让这张图动起来", "根据文字创作动图", "用角色照片做动态表情", "生成写实咖啡微动", "将参考动作图切帧", "修改第5帧的动作", "只让眼睛眨动", "角色做跳跃动作", "create animated gif from text", "repair sprite sheet frames", "export frame sequence", "生成黏土风动作视频"
+  ],
+  "should_not_trigger": [
+    "画一张静态海报", "现有视频转 GIF", "给角色做三维骨骼", "写 CSS 动画", "长篇剪辑", "只解释 GIF 是什么"
+  ],
+  "near_neighbor": ["查找现成动作表情", "给视频加字幕", "做网页交互动效", "创作一本静态绘本"]
+}
